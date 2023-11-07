@@ -180,7 +180,46 @@ td:nth-child(3){
 }
 tr:nth-child(even){
     background-color: royalblue;
-    }
+}
+#contact-form input[type="text"]{
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #c8b0df;
+}
+#contact-form input[type="email"]{
+    height: 15px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+.form_item [type=submit]{
+    background-color: rgb(170, 157, 157);
+    color:blue;
+    height: 35px;
+    width: 120px;
+    padding: 5px;
+
     
+}
+.form_item [type="submit"]:hover{
+    background-color: #eddfff;
+
+}
+form{
+    border: 2px solid #53148d;
+    background-color: #53148d;
+    width: 230px;
+    border-width: 10px;
+    color: white;
+    font-style: oblique;
+    font-size: large;
+    padding: 10px;
+    margin: auto;
+}    
     
     
