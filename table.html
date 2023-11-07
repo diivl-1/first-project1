@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+   <table   class="bill-table">
+
+    <thead>
+        <th>Название</th>
+        <th>Цена</th>
+        <th>Кол-во</th>
+        <th>Стоимость</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Карандаш</td>
+            <td>20</td>
+            <td>4</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Ручка</td>
+            <td>30</td>
+            <td>4</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Марке</td>
+            <td>200</td>
+            <td>10</td>
+            <td>2000</td>
+        </tr>
+        <td colspan="3"> Итог</td>
+        <td>2200</td>
+    </tbody>
+   </table> 
+   <form id="reg-form">
+    <label for="name">Введите имя</label><br>
+    <input id="name" name="name" type="text" placeholder="Имя" required ><br>
+
+    
+    <label for="">Введите пароль</label><br>
+    <input  type="password" placeholder="Пароль" required><br>
+
+
+    <input type = "radio" id="gender-m" name="gender" value="male">
+    <label for="gender-m">муж</label>
+    <input type = "radio" id="gender-f" name="gender" value="female">
+    <label for="gender-f">жен</label>
+
+    <input type="submit" value ="Зарегестрироваться" >
+    <input type="reset" >
+   </form>
+
+
+</body>
+</html>
